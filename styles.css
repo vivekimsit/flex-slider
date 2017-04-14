@@ -43,11 +43,15 @@ a:hover {
 
 /* Flex items */
 .slider-nav li {
-  flex: 1;
+  flex: 2;
   border: 1px solid red;
 }
 
 .slider-nav a {
   display: block;
   width: 100%;
+}
+
+.slider-nav .arrow {
+  flex: 1;
 }
