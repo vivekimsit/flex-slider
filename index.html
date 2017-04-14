@@ -13,27 +13,17 @@
       <div class="slider-nav">
         <ul>
           <li class="arrow">
-            <a href="#">← </a>
+            <a href="#"><span>← </span></a>
           </li>
-          <li><a href="#">Item 02</a></li>
-          <li><a href="#">Item 03</a></li>
-          <li><a href="#">Item 04</a></li>
-          <li><a href="#">Item 05</a></li>
-          <li><a href="#">Item 06</a></li>
+          <li><a href="#"><span>Item 01</span></a></li>
+          <li><a href="#"><span>Item 02</a></span></li>
+          <li><a href="#"><span>Item 03</span></a></li>
           <li class="arrow">
-            <a href="#"> → </a>
+            <a href="#"><span>→</span></a>
           </li>
         </ul>
       </div>
     </div>
-    <script>
-      function handleToggleNavClick(e) {
-        const menu = document.querySelector('nav > ul');
-        menu.classList.toggle('open');
-      }
-      const toggleNav = document.querySelector('.toggleNav');
-      toggleNav.addEventListener('click', handleToggleNavClick);
-    </script>
   </body>
 </html>
 
